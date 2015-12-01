@@ -2,6 +2,7 @@ class Image
 	def initialize(entry)
 		@arry = []
 		@arry << entry
+		@arry.flatten(1)
 	end
 
 	def output_image
